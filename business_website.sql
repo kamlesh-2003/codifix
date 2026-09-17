@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 16, 2026 at 07:04 PM
+-- Generation Time: Sep 17, 2026 at 06:21 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -174,7 +174,7 @@ CREATE TABLE `contact_box` (
 --
 
 INSERT INTO `contact_box` (`id`, `title`, `value`, `icon`) VALUES
-(1, 'Address', 'pune', 'bi bi-geo-alt'),
+(1, 'Address', 'Chakan,pune', 'bi bi-geo-alt'),
 (2, 'Contact Us', '+91 9699881866', 'bi bi-telephone'),
 (3, 'Send Us an Email', 'codifix@gmail.com', 'bi bi-envelope');
 
@@ -268,18 +268,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `category_id`, `product_name`, `description`, `price`) VALUES
-(1, 1, 'ProTask – Productivity Management System', 'ProTask is a professional productivity management application designed to help individuals and teams organize tasks, manage projects, set goals, and track progress efficiently. It provides an intuitive interface with task management, reminders, progress tracking, and productivity features to improve workflow and time management.', '300$'),
-(2, 2, 'SmartCart – Online Shopping Platform', 'SmartCart – Shop premium products online with a simple, secure, and convenient shopping experience. Browse products, compare prices, manage your cart, and place orders easily from one platform.', '449$'),
-(3, 3, 'CloudSync – Secure Cloud Storage', 'CloudSync is a secure and reliable cloud storage platform designed to help users store, manage, and access their files from anywhere. It provides fast file synchronization, secure data backup, easy file sharing, and organized storage for personal and professional use.', '299$'),
-(4, 4, 'MediCare Plus – Digital Health Assistant', 'MediCare Plus is a digital healthcare platform designed to help users manage appointments, access medical information, track health records, and receive timely reminders. It provides a simple and secure solution for managing essential healthcare activities in one place.', '599$'),
-(5, 1, 'SecureShield – Advanced Security Suite', 'SecureShield is a professional cybersecurity solution designed to protect systems and sensitive data from common digital threats. It provides secure access controls, threat monitoring, data protection, and real-time security alerts to help businesses maintain a safer digital environment.', '350$'),
-(6, 2, 'PayFlow – Digital Payment Solution', 'PayFlow is a modern digital payment solution designed to simplify secure and efficient financial transactions. It enables users to manage payments, track transaction history, receive payment notifications, and monitor their financial activities through an easy-to-use platform.', '450$'),
-(7, 3, 'LearnPro – Online Learning Platform', 'LearnPro is a comprehensive online learning platform designed to help students and professionals develop new skills through structured courses and interactive learning resources. It provides course management, progress tracking, assessments, certificates, and personalized learning support in one convenient platform.', '499$'),
-(8, 4, 'WorkSphere – Business Management Suite', 'WorkSphere is a professional business management solution designed to streamline daily operations and improve team productivity. It helps organizations manage projects, assign tasks, monitor performance, organize documents, and track business activities through a centralized and user-friendly platform.', '650$'),
-(9, 1, 'TripEase – Smart Travel Planner', 'TripEase is a modern travel management platform designed to simplify trip planning and organization. It helps users discover destinations, create personalized itineraries, manage bookings, track travel schedules, and organize important trip information in one convenient platform.', '370$'),
-(10, 2, 'FreshBasket – Online Grocery Store', 'FreshBasket is a convenient online grocery platform designed to make everyday shopping simple and efficient. It allows customers to browse fresh products, manage shopping carts, place orders, track deliveries, and securely complete payments from one platform.', '470$'),
-(11, 3, 'SmartHome Hub – Connected Living System', 'SmartHome Hub is a modern home management solution designed to simplify everyday living through connected technology. It helps users monitor devices, manage home settings, schedule activities, and access important information through a centralized and easy-to-use platform.', '570$'),
-(12, 4, 'AutoCare Pro – Vehicle Management System', 'AutoCare Pro is a professional vehicle management platform designed to simplify vehicle maintenance and service tracking. It helps users manage service schedules, monitor maintenance records, track expenses, receive timely reminders, and keep essential vehicle information organized in one place', '550$');
+(1, 1, 'Precision Pro – Industrial Manufacturing Solutions', 'A modern platform for managing precision manufacturing products, machinery, components, and customized industrial solutions.', '300$'),
+(2, 2, 'Steel Craft – Advanced Metal Solutions', 'A digital platform for displaying metal fabrication services, contract manufacturing, stamping, bending, and industrial production capabilities', '449$'),
+(3, 3, 'Indus Fab – Metal Fabrication Solutions', 'A responsive web-based platform for showcasing custom metal fabrication services, industrial products, manufacturing capabilities, completed projects, and company information across desktop and mobile devices.', '299$');
 
 -- --------------------------------------------------------
 
@@ -298,18 +289,9 @@ CREATE TABLE `product_images` (
 --
 
 INSERT INTO `product_images` (`id`, `product_id`, `image_url`) VALUES
-(1, 1, 'app-1.png'),
-(2, 2, 'product-1.png'),
-(3, 3, 'branding-1.png'),
-(4, 4, 'books-1.png'),
-(5, 5, 'app-2.png'),
-(6, 6, 'product-2.png'),
-(7, 7, 'branding-2.png'),
-(8, 8, 'books-2.png'),
-(9, 9, 'app-3.png'),
-(10, 10, 'product-3.png'),
-(11, 11, 'branding-3.png'),
-(12, 12, 'books-3.png'),
+(1, 1, 'app-1.jpg'),
+(2, 2, 'product-1.jpg'),
+(3, 3, 'branding-1.jpg'),
 (13, 1, 'app-1.png'),
 (14, 1, 'product-1.png'),
 (15, 1, 'branding-1.png');
